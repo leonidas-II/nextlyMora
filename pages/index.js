@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Impacto Sobre Ruedas</title>
         <meta
           name="description"
           content="Nextly is a free landing page template built with next.js & Tailwind CSS"
@@ -27,11 +27,11 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Beneficios de Impacto Sobre Ruedas"
+        title="¿Por qué elegirnos?">
+        ¡Rompiendo barreras en la publicidad! Transformamos los tediosos atascos de la ciudad en oportunidades de 
+        impacto. Introducimos la publicidad en movimiento,
+        aprovechando los momentos en que la gente está atrapada en el tráfico para dejar una impresión duradera.
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
