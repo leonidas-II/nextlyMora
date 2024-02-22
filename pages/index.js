@@ -53,11 +53,11 @@ const Home = () => {
         personas posibles. Con flotas tanto en ciudades como a nivel nacional, estamos listos para llevar tu mensaje donde sea necesario. 
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
+      {/* <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>
-      <Faq />
+      <Faq /> */}
       <Cta />
       <Footer />
      

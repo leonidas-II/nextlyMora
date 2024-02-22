@@ -8,8 +8,7 @@ const Navbar = () => {
     "Producto",
     "Beneficios",
     "Estretegia",
-    "Company",
-    "Blog",
+    
   ];
 
   return (
