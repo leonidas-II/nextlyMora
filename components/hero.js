@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Container from "./container";
-import heroImg from "../public/img/hero.png";
+import heroImg from "../public/img/hero.jpeg";
 import whatsImg from "../public/img/brands/WhatsAppButtonGreenLarge.svg";
+import Carusel from "./carusel"
+
 
 const Hero = () => {
   return (
@@ -32,8 +34,8 @@ const Hero = () => {
                   height="217"
                   className={"object-cover"}
                   loading="eager"
-                
-                  />
+
+                />
               </a>
             </div>
           </div>
@@ -59,23 +61,13 @@ const Hero = () => {
             en carretera
           </div>
 
-          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
-              <AmazonLogo />
-            </div>
-            <div className="text-gray-400 dark:text-gray-400">
-              <VerizonLogo />
-            </div>
-            <div className="text-gray-400 dark:text-gray-400">
-              <MicrosoftLogo />
-            </div>
-            <div className="pt-1 text-gray-400 dark:text-gray-400">
-              <NetflixLogo />
-            </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
-              <SonyLogo />
-            </div>
-          </div>
+         
+
+              <Carusel/>
+
+
+
+
         </div>
       </Container>
     </>

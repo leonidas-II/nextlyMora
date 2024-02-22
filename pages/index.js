@@ -18,8 +18,8 @@ const Home = () => {
       <Head>
         <title>Impacto Sobre Ruedas</title>
         <meta
-          name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          name="Impacto Sobre Ruedas"
+          content="Impacto desde y hasta el final de carrera."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
