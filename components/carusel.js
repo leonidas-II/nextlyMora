@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
-import img1 from "../public/img/carusel/caru1.jpeg"
-import img2 from "../public/img/carusel/caru2.jpeg"
-import img3 from "../public/img/carusel/caru3.jpeg"
-import img4 from "../public/img/carusel/caru4.jpeg"
-import img5 from "../public/img/carusel/caru5.jpeg"
+
 
 function App() {
     const slides = [
@@ -50,7 +46,7 @@ function App() {
 
 
     return (
-        <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
+        <div id='Producto' className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
             <div
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
                 className='w-full h-full rounded-2xl bg-center bg-cover duration-500'

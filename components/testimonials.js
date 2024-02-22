@@ -6,15 +6,15 @@ import userOneImg from "../public/img/user1.jpg";
 import userTwoImg from "../public/img/user2.jpg";
 import userThreeImg from "../public/img/user3.jpg";
 
-const Testimonials  = () => {
+const Testimonials = () => {
   return (
-    <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
+    <Container >
+      <div  className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              Tiempo de Campañas <Mark> 3, 6 y 12 meses</Mark>
+              donde desarrollamos un diseño para ti o mandanos un diseño y nosotros lo imprimimos.<Mark>  Textos virales. </Mark>
             </p>
 
             <Avatar
@@ -27,8 +27,8 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+             Todas nuestras rutas <Mark>siempre en moviemiento</Mark>. Todos nuestros camiones, trailers y vehículos 
+             disponen de GPS y sabemos los <Mark> kilómetros que tu marca recorre diarios</Mark> y qué rutas hace.
             </p>
 
             <Avatar

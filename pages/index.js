@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
+import Divider  from "../components/divider";
 
 import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
@@ -10,7 +11,7 @@ import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
-import PopupWidget from "../components/popupWidget";
+
 
 const Home = () => {
   return (
@@ -43,11 +44,13 @@ const Home = () => {
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
       <Video />
+      <Divider/>
       <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+      id="Estretegia" 
+        pretitle="Aprende como funcionamos"
+        title="Dinos que necesitas y diseñaremos una estrategia para ti">
+        Entendemos la importancia de ajustarnos a tu presupuesto. Nuestro objetivo es impactar a la mayor cantidad de 
+        personas posibles. Con flotas tanto en ciudades como a nivel nacional, estamos listos para llevar tu mensaje donde sea necesario. 
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
@@ -57,7 +60,7 @@ const Home = () => {
       <Faq />
       <Cta />
       <Footer />
-      <PopupWidget />
+     
     </>
   );
 }
