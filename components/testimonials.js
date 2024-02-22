@@ -41,8 +41,8 @@ const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve seen. I
-              would use this for anything.
+              Todas nuestras tarifas <Mark>adaptables</Mark> dependiendo del número de vehículos a contratar. 
+              Nos encargamos de la <Mark> limpieza de los rótulos</Mark> y que se vean espectaculares. 
             </p>
 
             <Avatar
