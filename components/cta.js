@@ -12,17 +12,20 @@ const Cta = () => {
             PREPARADO PARA INICIAR EN CARRETERA
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Llegamos hasta donde se termina e inicia una nueva
+            ¡Haz que te conozcan! DISPONEMOS DE 100 VEHÍCULOS
           </p>
         </div>
-        <div className="flex-shrink-0 w-full text-center lg:w-auto">
+        <div className="flex-shrink-0 w-full items-center text-center lg:w-auto">
+          <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
+            ¡A QUÉ ESPERAS!
+          </p>
           <a aria-label="Chat on WhatsApp"
             href="https://wa.me/524722316084?text=Información%20de%20planes">
             <Image alt="Chat on WhatsApp"
               src={whatsIm}
               width="216"
               height="217"
-              className={"object-cover"}
+              className={"object-cover pt-4 inline"}
               loading="eager"
 
             />
