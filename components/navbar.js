@@ -30,7 +30,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>Impacto Sobre Ruedas</span>
                   </span>
                 </Link>
 
