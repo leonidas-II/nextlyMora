@@ -12,7 +12,7 @@ const Cta = () => {
             PREPARADO PARA INICIAR EN CARRETERA
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Llegamos hasta donde se termina e incia una nueva
+            Llegamos hasta donde se termina e inicia una nueva
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">

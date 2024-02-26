@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Container from "./container";
 
-import userOneImg from "../public/img/user1.jpg";
-import userTwoImg from "../public/img/user2.jpg";
-import userThreeImg from "../public/img/user3.jpg";
+import userOneImg from "../public/img/marketingIm.jpg";
+import userTwoImg from "../public/img/rutas.jpg";
+import userThreeImg from "../public/img/tarifas.png";
 
 const Testimonials = () => {
   return (
@@ -20,7 +20,7 @@ const Testimonials = () => {
             <Avatar
               image={userOneImg}
               name="CAMPAÑAS"
-              title="VP Sales at Google"
+              title="Tu alidado en Marketing"
             />
           </div>
         </div>
@@ -34,7 +34,7 @@ const Testimonials = () => {
             <Avatar
               image={userTwoImg}
               name="RUTAS"
-              title="Lead marketer at Netflix"
+              title="Lleva tu presencia a todas partes"
             />
           </div>
         </div>
@@ -48,7 +48,7 @@ const Testimonials = () => {
             <Avatar
               image={userThreeImg}
               name="TARIFAS"
-              title="Co-founder of Acme Inc"
+              title="Adaptables para ti"
             />
           </div>
         </div>

@@ -3,12 +3,12 @@ import {
   ChartBarSquareIcon,
   CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
-  AdjustmentsHorizontalIcon,
+  EyeIcon,
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/cochelado.jpeg";
+import benefitTwoImg from "../public/img/cocheatras.jpeg";
 
 const benefitOne = {
   title: "¿Sabías que?",
@@ -21,17 +21,19 @@ const benefitOne = {
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Rompiendo la barrera",
+      desc: "El 84% de la sociedad ha levantado una muralla contra la publicidad, cansada del abuso que ha dominado nuestros espacios. Es hora de reinventar cómo nos conectamos con las personas (Forbes).",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Deja que te vean",
+      desc: "El 30% de los consumidores indican que basan sus decisiones de compra en los anuncios que ven.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
+
+
 
 const benefitTwo = {
   title: "Mientras que...",
@@ -44,13 +46,13 @@ const benefitTwo = {
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
-      icon: <AdjustmentsHorizontalIcon />,
+      title: "Los ojos en tu producto",
+      desc: "El 92% de los encuestados declaran que de hecho leen la información de los gráficos de vehículos.",
+      icon: <EyeIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "La idea es cambiar para llegar a más",
+      desc: "De un día para otro podemos cambiar de campaña y de estrategia y así saber bien que funciona y que no. ",
       icon: <SunIcon />,
     },
   ],
