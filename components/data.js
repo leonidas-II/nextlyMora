@@ -4,7 +4,7 @@ import {
   CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
   EyeIcon,
-  SunIcon,
+  BookmarkSquareIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/img/cochelado.jpeg";
@@ -42,7 +42,7 @@ const benefitTwo = {
   bullets: [
     {
       title: "Lo que supone que pasará frente a otros 8,500,000 vehículos",
-      desc: "Lo que se refleja en más de 700mil autos al mes",
+      desc: "Lo que se refleja en más de 700mil impactos al mes",
       icon: <DevicePhoneMobileIcon />,
     },
     {
@@ -51,9 +51,9 @@ const benefitTwo = {
       icon: <EyeIcon />,
     },
     {
-      title: "La idea es cambiar para llegar a más",
-      desc: "De un día para otro podemos cambiar de campaña y de estrategia y así saber bien que funciona y que no. ",
-      icon: <SunIcon />,
+      title: "Deja tu marca en sus mentes",
+      desc: "El 98% de los encuestados creen que los gráficos de flota crean una imagen positiva de marca. ",
+      icon: <BookmarkSquareIcon />,
     },
   ],
 };

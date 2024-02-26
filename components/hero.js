@@ -15,7 +15,7 @@ const Hero = () => {
             ¡HAZ QUE TU EMPRESA SE CONOZCA DESDE EL PRIMER DÍA SIN GRANDES INVERSIONES! 
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-            La nueva era de la publicidad
+        La nueva era de la publicidad. 
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -51,8 +51,8 @@ const Hero = () => {
       <Container>
         <div  className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Llega a más de <span className="text-indigo-600">2 millones+</span>{" "}
-            en carretera
+          Educa, informa y convence. <span className="text-indigo-600">Deja una huella duradera</span>{" "} en los tráficos
+            
           </div>
 
 
